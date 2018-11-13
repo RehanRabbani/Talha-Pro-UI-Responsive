@@ -1,0 +1,47 @@
+.RehanBhao
+{  
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+margin-top: 1em;
+	
+}
+.RehanHeight
+{
+height: 900px;
+background-color: #32cd32;
+}
+	
+@media only screen and (max-width: 710px){
+.RehanNone{
+	display: none;
+}
+}
+@media only screen and (max-width: 700px) {
+
+.RehanHeight{
+height: 900px;
+
+}
+}
+
+@media only screen and (max-width: 590px) {
+
+.RehanHeight{
+height: 1300px;
+
+}
+}
+@media only screen and (max-width: 400px) {
+
+.RehanHeight{
+height: 1300px;
+
+}
+}
+.RehanG,.RehanGG{
+	padding-bottom: 5em;
+}
+
+
